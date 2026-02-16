@@ -5,12 +5,22 @@ import PackageDescription
 
 let package = Package(
     name: "SwiftSDAIap242ed4",
+    platforms: [
+      .macOS(.v26)
+    ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
             name: "SwiftSDAIap242ed4",
             targets: ["SwiftSDAIap242ed4"]
         ),
+    ],
+    dependencies: [
+      // Dependencies declare other packages that this package depends on.
+      // .package(url: /* package url */, from: "1.0.0"),
+      //    .package(name: "SwiftSDAIcore", path: "/Users/home/Dropbox/STEP/STEPcode/SwiftSDAIcore/"),
+      .package(url: "https://github.com/tsun7170/SwiftSDAIcore", from: "2.0.0"),
+
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
