@@ -1,4 +1,14 @@
 (*
+ patched schema file: ap242ed4_mim_lf_TY.exp
+
+ by Tsutomu Yoshida, Minokamo, Japan.
+
+ original schema file: ap242ed4_mim_if.exp (ISO 10303-242:2025)
+  from https://www.mbx-if.org/home/mbx/resources/express-schemas/
+  or   https://www.iso.org/standard/84300.html
+ *)
+----------------------------------------------------------------------------------------------------------------
+(*
    ISO TC184/SC4/WG12 N11521 - ISO/TS 10303-442 AP242 managed model based 3d engineering - EXPRESS MIM Long form
    Supersedes ISO TC184/SC4/WG3 N11273
 *)
@@ -16568,7 +16578,7 @@ WHERE
                                                     | (('AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.SHAPE_REPRESENTATION_WITH_PARAMETERS') IN
                                                        TYPEOF(pdr.used_representation)))
                                            | (NOT (SIZEOF(QUERY(it
-                                                                <* impl_rep.used_representation.items
+                                                                <* impl_rep.used_representation\SHAPE_REPRESENTATION_WITH_PARAMETERS(*TY2021/01/24*).items
                                                                 | (('AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.DESCRIPTIVE_REPRESENTATION_ITEM' IN
                                                                     TYPEOF(it)) AND
                                                                    (it.name = 'removal direction') AND
@@ -16887,7 +16897,7 @@ WHERE
                                                      | (('AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.SHAPE_REPRESENTATION_WITH_PARAMETERS') IN
                                                         TYPEOF(pdr.used_representation)))
                                             | (NOT (SIZEOF(QUERY(it
-                                                                 <* impl_rep.used_representation.items
+                                                                 <* impl_rep.used_representation\SHAPE_REPRESENTATION_WITH_PARAMETERS(*TY2021/01/24*).items
                                                                  | (('AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.DESCRIPTIVE_REPRESENTATION_ITEM' IN
                                                                      TYPEOF(it)) AND
                                                                     (it.name = 'module or diametral pitch') AND
@@ -16927,7 +16937,7 @@ WHERE
                                                      | (('AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.SHAPE_REPRESENTATION_WITH_PARAMETERS') IN
                                                         TYPEOF(pdr.used_representation)))
                                             | (NOT (SIZEOF(QUERY(it
-                                                                 <* impl_rep.used_representation.items
+                                                                 <* impl_rep.used_representation\SHAPE_REPRESENTATION_WITH_PARAMETERS(*TY2021/01/24*).items
                                                                  | (('AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.DESCRIPTIVE_REPRESENTATION_ITEM' IN
                                                                      TYPEOF(it)) AND
                                                                     (it.name = 'internal or external gear') AND
@@ -18533,7 +18543,7 @@ WHERE
                                                       | 'AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.SHAPE_REPRESENTATION_WITH_PARAMETERS' IN
                                                         TYPEOF(pdr.used_representation))
                                              | NOT (SIZEOF(QUERY(it
-                                                                 <* impl_rep.used_representation.items
+                                                                 <* impl_rep.used_representation\SHAPE_REPRESENTATION_WITH_PARAMETERS(*TY2021/01/24*).items
                                                                  | ('AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.DESCRIPTIVE_REPRESENTATION_ITEM' IN
                                                                     TYPEOF(it)) AND
                                                                    (it.name = 'module or diametral pitch') AND
@@ -18554,7 +18564,7 @@ WHERE
                                                       | 'AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.SHAPE_REPRESENTATION_WITH_PARAMETERS' IN
                                                         TYPEOF(pdr.used_representation))
                                              | NOT (SIZEOF(QUERY(it
-                                                                 <* impl_rep.used_representation.items
+                                                                 <* impl_rep.used_representation\SHAPE_REPRESENTATION_WITH_PARAMETERS(*TY2021/01/24*).items
                                                                  | ('AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.DESCRIPTIVE_REPRESENTATION_ITEM' IN
                                                                     TYPEOF(it)) AND
                                                                    (it.name = 'internal or external gear') AND
@@ -18636,7 +18646,7 @@ WHERE
                                                        | 'AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.SHAPE_REPRESENTATION_WITH_PARAMETERS' IN
                                                          TYPEOF(pdr.used_representation))
                                               | NOT (SIZEOF(QUERY(it
-                                                                  <* impl_rep.used_representation.items
+                                                                  <* impl_rep.used_representation\SHAPE_REPRESENTATION_WITH_PARAMETERS(*TY2021/01/24*).items
                                                                   | ('AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.DESCRIPTIVE_REPRESENTATION_ITEM' IN
                                                                      TYPEOF(it)) AND
                                                                     (it.name = 'gear tooth') AND
@@ -29328,7 +29338,7 @@ WHERE
                                                     | (('AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.SHAPE_REPRESENTATION_WITH_PARAMETERS') IN
                                                        TYPEOF(pdr.used_representation)))
                                            | (NOT (SIZEOF(QUERY(it
-                                                                <* impl_rep.used_representation.items
+                                                                <* impl_rep.used_representation\SHAPE_REPRESENTATION_WITH_PARAMETERS(*TY2021/01/24*).items
                                                                 | (('AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.DESCRIPTIVE_REPRESENTATION_ITEM' IN
                                                                     TYPEOF(it)) AND
                                                                    (it.name = 'shape profile floor orientation') AND
@@ -36081,7 +36091,7 @@ WHERE
                                                    | (('AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.SHAPE_REPRESENTATION_WITH_PARAMETERS') IN
                                                       TYPEOF(pdr.used_representation)))
                                           | (NOT (SIZEOF(QUERY(it
-                                                               <* impl_rep.used_representation.items
+                                                               <* impl_rep.used_representation\SHAPE_REPRESENTATION_WITH_PARAMETERS(*TY2021/01/24*).items
                                                                | (('AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.DESCRIPTIVE_REPRESENTATION_ITEM' IN
                                                                    TYPEOF(it)) AND
                                                                   (it.name = 'hand') AND
@@ -36114,7 +36124,7 @@ WHERE
                                                     | (('AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.SHAPE_REPRESENTATION_WITH_PARAMETERS') IN
                                                        TYPEOF(pdr.used_representation)))
                                            | (NOT (SIZEOF(QUERY(it
-                                                                <* impl_rep.used_representation.items
+                                                                <* impl_rep.used_representation\SHAPE_REPRESENTATION_WITH_PARAMETERS(*TY2021/01/24*).items
                                                                 | (('AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.DESCRIPTIVE_REPRESENTATION_ITEM' IN
                                                                     TYPEOF(it)) AND
                                                                    (it.name = 'thread side') AND
@@ -36309,7 +36319,7 @@ WHERE
                                                    | (('AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.SHAPE_REPRESENTATION_WITH_PARAMETERS') IN
                                                       TYPEOF(pdr.used_representation)))
                                           | (NOT (SIZEOF(QUERY(it
-                                                               <* impl_rep.used_representation.items
+                                                               <* impl_rep.used_representation\SHAPE_REPRESENTATION_WITH_PARAMETERS(*TY2021/01/24*).items
                                                                | (('AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.DESCRIPTIVE_REPRESENTATION_ITEM' IN
                                                                    TYPEOF(it)) AND
                                                                   (it.name = 'pitch or dimension') AND
@@ -36327,7 +36337,7 @@ WHERE
                                                    | (('AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.SHAPE_REPRESENTATION_WITH_PARAMETERS') IN
                                                       TYPEOF(pdr.used_representation)))
                                           | (NOT (SIZEOF(QUERY(it
-                                                               <* impl_rep.used_representation.items
+                                                               <* impl_rep.used_representation\SHAPE_REPRESENTATION_WITH_PARAMETERS(*TY2021/01/24*).items
                                                                | (('AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.DESCRIPTIVE_REPRESENTATION_ITEM' IN
                                                                    TYPEOF(it)) AND
                                                                   (it.name = 'included or extra') AND
@@ -38758,7 +38768,7 @@ END_FUNCTION;
 FUNCTION acyclic_composite_text(start_composite : composite_text;
                                 child_text : SET [1 : ?] OF text_or_character) : LOGICAL;
 LOCAL
-  i                     : INTEGER;
+  --*TY2026/02/26:  i                     : INTEGER;
   local_composite_text  : SET [0 : ?] OF composite_text;
   local_annotation_text : SET [0 : ?] OF annotation_text;
   local_children        : SET [0 : ?] OF text_or_character;
@@ -38933,16 +38943,16 @@ END_LOCAL;
       IF SIZEOF(rms) > 0
       THEN
         REPEAT j := 1 TO HIINDEX(rms);
-          mis := bag_to_set(USEDIN(rms[i],
+          mis := bag_to_set(USEDIN(rms[ j(*TY2021/02/28*) ],
                                    'AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.MAPPED_ITEM.MAPPING_SOURCE'));
           IF SIZEOF(mis) > 0
           THEN
-            REPEAT j := 1 TO HIINDEX(mis);
-              IF mis[i] :=: mi
+            REPEAT k(*TY2021/02/28*) := 1 TO HIINDEX(mis);
+              IF mis[ k(*TY2021/02/28*) ] :=: mi
               THEN
                 RETURN(FALSE);
               END_IF;
-              rs2 := rs2 + using_representations(mis[i]);
+              rs2 := rs2 + using_representations(mis[ k(*TY2021/02/28*) ]);
             END_REPEAT;
           END_IF;
         END_REPEAT;
@@ -39725,7 +39735,7 @@ END_FUNCTION;
 
 FUNCTION check_continuous_edges(edges : LIST OF UNIQUE edge_curve) : BOOLEAN;
 LOCAL
-  i           : INTEGER;
+  --*TY2026/02/26:  i           : INTEGER;
   next_vertex : vertex;
 END_LOCAL;
   -- first check whether there is only one edge in the list: in this
@@ -39773,8 +39783,8 @@ END_FUNCTION;
 FUNCTION check_curve_planarity(checked_curve : curve) : BOOLEAN;
 LOCAL
   crv    : curve   := checked_curve;
-  i      : INTEGER;
-  j      : INTEGER;
+  --*TY2026/02/26;  i      : INTEGER;
+  --*TY2026/02/26;  j      : INTEGER;
   result : BOOLEAN := FALSE;
 END_LOCAL;
   -- Determine whether the curve lies on a plane, according to its type
@@ -40603,7 +40613,7 @@ END_FUNCTION;
 
 FUNCTION compute_total_depth(swsrh : solid_with_stepped_round_hole) : positive_length_measure;
 LOCAL
-  i  : positive_integer;
+  --*TY2026/02/26:  i  : positive_integer;
   n  : positive_integer        := swsrh.segments;
   td : positive_length_measure := swsrh.segment_depths[1];
 END_LOCAL;
@@ -41098,6 +41108,7 @@ LOCAL
   bval  : maths_binary;
   tval  : maths_tuple   := the_empty_maths_tuple;
   mval  : maths_value;
+  val_list : LIST OF GENERIC; --*TY2021/02/20
 END_LOCAL;
   IF (schema_prefix + 'MATHS_VALUE') IN types
   THEN
@@ -41140,8 +41151,9 @@ END_LOCAL;
   END_IF;
   IF 'LIST' IN types
   THEN
-    REPEAT i := 1 TO SIZEOF(val);
-      mval := convert_to_maths_value(val[i]);
+    val_list := val; --*TY2021/02/20
+    REPEAT i := 1 TO SIZEOF(val_list); --*TY2021/02/20
+      mval := convert_to_maths_value(val_list[i]); --*TY2021/02/20
       IF NOT EXISTS(mval)
       THEN
         RETURN(?);
@@ -41390,7 +41402,7 @@ FUNCTION definite_integral_expr_check(operands : LIST [2 : ?] OF generic_express
 LOCAL
   nops : INTEGER             := 2;
   vspc : maths_space;
-  dim  : nonnegative_integer;
+  --*TY2026/02/27:  dim  : nonnegative_integer;
   k    : positive_integer;
   bspc : maths_space;
 END_LOCAL;
@@ -44016,7 +44028,7 @@ LOCAL
   factors2  : LIST OF maths_space;
   fs1       : function_space;
   fs2       : function_space;
-  cum2      : LOGICAL;
+  --*TY2026/02/26:  cum2      : LOGICAL;
 END_LOCAL;
   IF spc1 = spc2
   THEN
@@ -44691,7 +44703,7 @@ LOCAL
   local_s_d_r  : SET OF shape_definition_representation := [];
   local_s_d_r2 : BAG OF shape_definition_representation := [];
   local_s_r    : SET OF shape_representation            := [];
-  i            : INTEGER;
+  --*TY2026/02/26:  i            : INTEGER;
 END_LOCAL;
   -- find product_definition_shape representing the product_definiton
   local_p_d_s2 := local_p_d_s2 +
@@ -44726,7 +44738,7 @@ LOCAL
   local_s_d_r  : SET OF shape_definition_representation := [];
   local_s_d_r2 : BAG OF shape_definition_representation := [];
   local_s_r    : SET OF shape_representation            := [];
-  i            : INTEGER;
+  --*TY2026/02/27:  i            : INTEGER;
 END_LOCAL;
   -- find property_definition representing the shape_aspect
   local_p_d := bag_to_set(USEDIN(item,
@@ -45276,7 +45288,7 @@ LOCAL
   adrs_raw      : SET OF applied_document_reference   := bag_to_set(USEDIN(pdc,
                                                                            'AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.APPLIED_DOCUMENT_REFERENCE.ITEMS'));
   adrs_filtered : SET OF applied_document_reference   := [];
-  ras           : SET OF role_association;
+  --*TY2026/02/27:  ras           : SET OF role_association;
   dpas          : SET OF document_product_association;
 END_LOCAL;
   -- scan adrs_raw for associated role 'mandatory' and fill adrs_filtered with results
@@ -45467,6 +45479,7 @@ END_LOCAL;
                             END_IF;
     END;
   END_CASE;
+  RETURN(?); --*TY2021/02/18
 END_FUNCTION;
 
 FUNCTION get_descendant_occurrences(input : product_definition_occurrence) : SET [0 : ?] OF product_definition_specified_occurrence;
@@ -46017,7 +46030,7 @@ LOCAL
   reps : SET [1 : ?] OF representation                  := using_representations(item);
   svri : SET [1 : ?] OF variational_representation_item;
   iar  : instance_attribute_reference;
-  i    : INTEGER;
+  --*TY2026/02/27:  i    : INTEGER;
   n    : INTEGER                                        := HIINDEX(reps);
 END_LOCAL;
   IF ('AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.BOUND_VARIATIONAL_PARAMETER' IN TYPEOF(item))
@@ -46370,10 +46383,12 @@ END_FUNCTION;
 FUNCTION list_of_topology_reversed(a_list : list_of_reversible_topology_item) : list_of_reversible_topology_item;
 LOCAL
   the_reverse : list_of_reversible_topology_item;
+  aggr_or_elem : GENERIC; --*TY2021/02/25
 END_LOCAL;
   the_reverse := [];
   REPEAT i := 1 TO SIZEOF(a_list);
-    the_reverse := topology_reversed(a_list[i]) + the_reverse;
+    aggr_or_elem := topology_reversed(a_list[i]); --*TY2021/02/25
+    the_reverse := aggr_or_elem + the_reverse; --*TY2021/02/25
   END_REPEAT;
   RETURN(the_reverse);
 END_FUNCTION;
@@ -46585,7 +46600,7 @@ FUNCTION make_numeric_set(start : maths_number;
                           delta : maths_number;
                           incs : positive_integer) : SET [2 : ?] OF maths_number;
 LOCAL
-  i           : INTEGER;
+  --*TY2026/02/27:  i           : INTEGER;
   numeric_set : SET [2 : ?] OF maths_number := [start,(start + delta)];
 END_LOCAL;
   IF incs > 1
@@ -46845,6 +46860,7 @@ END_LOCAL;
     END_IF;
     OTHERWISE: RETURN(FALSE);
   END_CASE;
+ RETURN(false); --*TY2021/02/28
 END_FUNCTION;
 
 FUNCTION md_valid_content_in_geometric_set_for_external_image(input : geometric_set) : BOOLEAN;
@@ -46953,14 +46969,15 @@ FUNCTION fedex(val : AGGREGATE OF GENERIC : X;
 END_FUNCTION;
 LOCAL
   v         : maths_value            := simplify_maths_value(convert_to_maths_value(val));
+  v_maths_tuple : LIST OF maths_value := v; --*TY2026/02/26
   vtypes    : SET OF STRING          := stripped_typeof(v);
   s         : maths_space            := simplify_maths_space(spc);
   stypes    : SET OF STRING          := stripped_typeof(s);
   tmp_int   : INTEGER;
   tmp_real  : REAL;
   tmp_cmplx : complex_number_literal;
-  lgcl      : LOGICAL;
-  cum       : LOGICAL;
+  --*TY2021/02/28:  lgcl      : LOGICAL;
+  cum       : LOGICAL := UNKNOWN; --*TY2021/02/28 to protect against indeterminate
   vspc      : maths_space;
   sspc      : maths_space;
   smem      : SET OF maths_value;
@@ -47140,7 +47157,7 @@ END_LOCAL;
         sspc := s\uniform_product_space.base;
         cum := TRUE;
         REPEAT i := 1 TO SIZEOF(v);
-          cum := cum AND member_of(v[i], sspc);
+          cum := cum AND member_of(v_maths_tuple[i], sspc); --*TY2026/02/26
           IF cum = FALSE
           THEN
             RETURN(FALSE);
@@ -47160,7 +47177,7 @@ END_LOCAL;
       THEN
         cum := TRUE;
         REPEAT i := 1 TO SIZEOF(v);
-          cum := cum AND member_of(v[i], factors[i]);
+          cum := cum AND member_of(v_maths_tuple[i], factors[i]); --*TY2026/02/26
           IF cum = FALSE
           THEN
             RETURN(FALSE);
@@ -47181,7 +47198,7 @@ END_LOCAL;
       THEN
         cum := TRUE;
         REPEAT i := 1 TO tmp_int;
-          cum := cum AND member_of(v[i], factor_space(sspc, i));
+          cum := cum AND member_of(v_maths_tuple[i], factor_space(sspc, i)); --*TY2026/02/26
           IF cum = FALSE
           THEN
             RETURN(FALSE);
@@ -47189,7 +47206,7 @@ END_LOCAL;
         END_REPEAT;
         sspc := s\extended_tuple_space.extender;
         REPEAT i := tmp_int + 1 TO SIZEOF(v);
-          cum := cum AND member_of(v[i], sspc);
+          cum := cum AND member_of(v_maths_tuple[i], sspc); --*TY2026/02/26
           IF cum = FALSE
           THEN
             RETURN(FALSE);
@@ -48677,7 +48694,7 @@ END_LOCAL;
         j := v1;
         k := v2;
         n := 1;
-        REPEAT i := 1 TO ABS(k);
+        REPEAT i_(*TY2026/02/27*) := 1 TO ABS(k);
           n := n * j;
         END_REPEAT;
         IF k < 0
@@ -48882,7 +48899,7 @@ END_LOCAL;
         r := v1;
         k := v2;
         t := 1.0;
-        REPEAT i := 1 TO ABS(k);
+        REPEAT i_(*TY2026/02/27*) := 1 TO ABS(k);
           t := t * r;
         END_REPEAT;
         IF k < 0
@@ -49157,7 +49174,7 @@ END_LOCAL;
         k := v2;
         r := 1.0;
         s := 0.0;
-        REPEAT i := 1 TO ABS(k);
+        REPEAT i_(*TY2026/02/27*) := 1 TO ABS(k);
           r := p * r - q * s;
           s := p * s + q * r;
         END_REPEAT;
@@ -49528,7 +49545,8 @@ END_LOCAL;
                                  RETURN(?);
                                END_IF;
                                REPEAT l := 1 TO SIZEOF(tpl);
-                                 tpl[j] := tpl[j] + tp2[j];
+                                 n := tp2[ l(*TY2026/02/27*) ];          --*TY2026/02/26
+                                 tpl[ l(*TY2026/02/27*) ] := tpl[ l(*TY2026/02/27*) ] + n; --*TY2026/02/26
                                END_REPEAT;
                              END_IF;
                              REMOVE(vlist, i);
@@ -49556,7 +49574,8 @@ END_LOCAL;
           RETURN(?);
         END_IF;
         REPEAT i := 1 TO SIZEOF(tpl);
-          tpl[i] := tpl[i] - tp2[i];
+          n := tp2[i];          --*TY2026/02/26
+          tpl[i] := tpl[i] - n; --*TY2026/02/26
         END_REPEAT;
         RETURN(ctmv(tpl));
       END_IF;
@@ -49579,7 +49598,8 @@ END_LOCAL;
           RETURN(?);
         END_IF;
         REPEAT i := 1 TO SIZEOF(tpl);
-          j := j + tpl[i] * tp2[i];
+          n := tp2[i];          --*TY2026/02/26
+          j := j + tpl[i] * n;  --*TY2026/02/26
         END_REPEAT;
         RETURN(ctmv(j));
       END_IF;
@@ -49617,7 +49637,8 @@ END_LOCAL;
                                  RETURN(?);
                                END_IF;
                                REPEAT l := 1 TO SIZEOF(tpl);
-                                 tpl[j] := tpl[j] + tp2[j];
+                                 u := tp2[ l(*TY2026/02/27*) ];          --*TY2026/02/26
+                                 tpl[ l(*TY2026/02/27*) ] := tpl[ l(*TY2026/02/27*) ] + u; --*TY2026/02/26
                                END_REPEAT;
                              END_IF;
                              REMOVE(vlist, i);
@@ -49645,7 +49666,8 @@ END_LOCAL;
           RETURN(?);
         END_IF;
         REPEAT i := 1 TO SIZEOF(tpl);
-          tpl[i] := tpl[i] - tp2[i];
+          u := tp2[i];          --*TY2026/02/26
+          tpl[i] := tpl[i] - u; --*TY2026/02/26
         END_REPEAT;
         RETURN(ctmv(tpl));
       END_IF;
@@ -49668,7 +49690,8 @@ END_LOCAL;
           RETURN(?);
         END_IF;
         REPEAT i := 1 TO SIZEOF(tpl);
-          r := r + tpl[i] * tp2[i];
+          u := tp2[i];          --*TY2026/02/26
+          r := r + tpl[i] * u;  --*TY2026/02/26
         END_REPEAT;
         RETURN(ctmv(r));
       END_IF;
@@ -49677,7 +49700,8 @@ END_LOCAL;
         tpl := v1;
         r := 0.0;
         REPEAT i := 1 TO SIZEOF(tpl);
-          r := r + tpl[i] * tpl[i];
+          u := tpl[i];          --*TY2026/02/26
+          r := r + u * u;       --*TY2026/02/26
         END_REPEAT;
         RETURN(ctmv(SQRT(r)));
       END_IF;
@@ -49721,9 +49745,9 @@ END_LOCAL;
                                  RETURN(?);
                                END_IF;
                                REPEAT l := 1 TO SIZEOF(tpl);
-                                 parts(tpl[j], p, q);
-                                 parts(tp2[j], r, s);
-                                 tpl[j] := makec(p + r, q + s);
+                                 parts(tpl[ l(*TY2026/02/27*) ], p, q);
+                                 parts(tp2[ l(*TY2026/02/27*) ], r, s);
+                                 tpl[ l(*TY2026/02/27*) ] := makec(p + r, q + s);
                                END_REPEAT;
                              END_IF;
                              REMOVE(vlist, i);
@@ -50086,7 +50110,8 @@ END_LOCAL;
   END_IF;
   IF ('DIV_EXPRESSION' IN types) AND ('NUMBER' IN TYPEOF(v1)) AND ('NUMBER' IN TYPEOF(v2))
   THEN
-    RETURN(convert_to_maths_value(v1 DIV v2));
+    nmb := v1; --*TY2026/02/26
+    RETURN(convert_to_maths_value(nmb DIV v2)); --*TY2026/02/26
   END_IF;
   IF 'EQUALS_EXPRESSION' IN types
   THEN
@@ -50205,11 +50230,13 @@ END_LOCAL;
   END_IF;
   IF ('MINUS_EXPRESSION' IN types) AND ('NUMBER' IN TYPEOF(v1)) AND ('NUMBER' IN TYPEOF(v2))
   THEN
-    RETURN(convert_to_maths_value(v1 - v2));
+    nmb := v1; --*TY2026/02/27
+    RETURN(convert_to_maths_value(nmb - v2)); --*TY2027/02/26
   END_IF;
   IF ('MOD_EXPRESSION' IN types) AND ('NUMBER' IN TYPEOF(v1)) AND ('NUMBER' IN TYPEOF(v2))
   THEN
-    RETURN(convert_to_maths_value(v1 MOD v2));
+    nmb := v1; --*TY2026/02/27
+    RETURN(convert_to_maths_value(nmb MOD v2)); --*TY2026/02/27
   END_IF;
   IF 'MULT_EXPRESSION' IN types
   THEN
@@ -50290,7 +50317,8 @@ END_LOCAL;
   END_IF;
   IF ('POWER_EXPRESSION' IN types) AND ('NUMBER' IN TYPEOF(v1)) AND ('NUMBER' IN TYPEOF(v2))
   THEN
-    RETURN(convert_to_maths_value(v1 ** v2));
+    nmb := v1; --*TY2026/02/26
+    RETURN(convert_to_maths_value(nmb ** v2)); --*TY2026/02/26
   END_IF;
   IF ('SIN_EXPRESSION' IN types) AND ('NUMBER' IN TYPEOF(v1))
   THEN
@@ -50298,7 +50326,8 @@ END_LOCAL;
   END_IF;
   IF ('SLASH_EXPRESSION' IN types) AND ('NUMBER' IN TYPEOF(v1)) AND ('NUMBER' IN TYPEOF(v2))
   THEN
-    RETURN(convert_to_maths_value(v1 / v2));
+    nmb := v1; --*TY2026/02/26
+    RETURN(convert_to_maths_value(nmb / v2)); --*TY2026/02/26
   END_IF;
   IF ('SQUARE_ROOT_EXPRESSION' IN types) AND ('NUMBER' IN TYPEOF(v1))
   THEN
@@ -50604,7 +50633,7 @@ LOCAL
   spc2   : maths_space                  := simplify_maths_space(space2);
   types1 : SET OF STRING                := stripped_typeof(spc1);
   types2 : SET OF STRING                := stripped_typeof(spc2);
-  lgcl   : LOGICAL;
+  --*TY2026/02/27:  lgcl   : LOGICAL;
   cum    : LOGICAL;
   es_val : elementary_space_enumerators;
   bnd1   : REAL;
@@ -51519,8 +51548,8 @@ FUNCTION unique_in_product_definition(item : representative_shape_representation
 LOCAL
   local_p_d : SET OF product_definition   := [];
   local_s_r : SET OF shape_representation := [];
-  i         : INTEGER;
-  j         : INTEGER;
+  --*TY2026/02/27:  i         : INTEGER;
+  --*TY2026/02/27:  j         : INTEGER;
 END_LOCAL;
   -- find product_definitions represented by the input 
   -- representative_shape_representation
@@ -51549,8 +51578,8 @@ FUNCTION unique_in_shape_aspect(item : representative_shape_representation) : BO
 LOCAL
   local_s_a : SET OF shape_aspect         := [];
   local_s_r : SET OF shape_representation := [];
-  i         : INTEGER;
-  j         : INTEGER;
+  --*TY2026/02/27:  i         : INTEGER;
+  --*TY2026/02/27:  j         : INTEGER;
 END_LOCAL;
   -- find shape_aspects represented by the input 
   -- representative_shape_representation
@@ -51645,7 +51674,7 @@ FUNCTION using_product_definition_of_shape_representation(item : shape_represent
 LOCAL
   local_s_d_r : SET OF shape_definition_representation := [];
   local_p_d   : SET OF product_definition              := [];
-  i           : INTEGER;
+  --*TY2026/02/27:  i           : INTEGER;
 END_LOCAL;
   -- find shape_definition_representations 
   local_s_d_r := QUERY(i1
@@ -51675,8 +51704,8 @@ LOCAL
   local_results            : SET OF representation      := [];
   local_representation_map : SET OF representation_map  := [];
   intermediate_items       : SET OF representation_item := [];
-  i                        : INTEGER;
-  j                        : INTEGER;
+  --*TY2026/02/27:  i                        : INTEGER;
+  --*TY2026/02/27:  j                        : INTEGER;
 END_LOCAL;
   -- find the representations in which the item is used
   -- and which is referenced from the representation_map
@@ -51750,7 +51779,7 @@ LOCAL
   local_s_d_r  : SET OF shape_definition_representation := [];
   local_s_d_r2 : BAG OF shape_definition_representation := [];
   local_s_a    : SET OF shape_aspect                    := [];
-  i            : INTEGER;
+  --*TY2026/02/27:  i            : INTEGER;
 END_LOCAL;
   -- find shape_definition_representations 
   local_s_d_r2 := local_s_d_r2 +
@@ -52576,7 +52605,7 @@ END_CONSTANT;
 LOCAL
   id_length : INTEGER := LENGTH(attid);
   id_valid  : BOOLEAN := TRUE;
-  i         : INTEGER;
+  --*TY2026/02/27:  i         : INTEGER;
 END_LOCAL;
   -- check that indentifier starts with a letter
   IF NOT (attid[1] IN letters)
@@ -52596,7 +52625,7 @@ END_FUNCTION;
 
 FUNCTION validate_countersink_radii(cskhole : solid_with_stepped_round_hole_and_conical_transitions) : BOOLEAN;
 LOCAL
-  i       : INTEGER;
+  --*TY2026/02/27:  i       : INTEGER;
   j       : INTEGER;
   n       : INTEGER                 := 1 + cskhole\solid_with_stepped_round_hole.segments;
   smaller : positive_length_measure;
@@ -53814,9 +53843,9 @@ RULE ply_reference FOR (ply_laminate_sequence_definition,
                         next_assembly_usage_occurrence,
                         product_related_product_category);
 LOCAL
-  i     : INTEGER;
-  j     : INTEGER;
-  k     : INTEGER;
+  --*TY2026/02/27:  i     : INTEGER;
+  --*TY2026/02/27:  j     : INTEGER;
+  --*TY2026/02/27:  k     : INTEGER;
   dkuhr : LOGICAL := TRUE;
   nnauo : INTEGER;
   nprpc : INTEGER := 0;
@@ -53861,10 +53890,10 @@ END_RULE;
 
 RULE ply_stock_material_select FOR (product_related_product_category, make_from_usage_option);
 LOCAL
-  i     : INTEGER;
-  j     : INTEGER;
-  k     : INTEGER;
-  kp    : INTEGER;
+  --*TY2026/02/27:  i     : INTEGER;
+  --*TY2026/02/27:  j     : INTEGER;
+  --*TY2026/02/27:  k     : INTEGER;
+  --*TY2026/02/27:  kp    : INTEGER;
   dkuhr : LOGICAL;
   nmfuo : INTEGER;
   nprpc : INTEGER := 0;
@@ -54496,7 +54525,7 @@ END_LOCAL;
   WHILE pass;
     sa := bag_to_set(USEDIN(product_definition_shape[ii],
                             'AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.SHAPE_ASPECT.OF_SHAPE'));
-    REPEAT iii := 1 TO SIZEOF(sa)
+    REPEAT iii_(*TY2026/02/27*) := 1 TO SIZEOF(sa)
     WHILE pass;
       ds := QUERY(ds <* sa | 'AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.DATUM_SYSTEM' IN TYPEOF(ds));
       REPEAT i := 1 TO SIZEOF(ds);
@@ -54629,7 +54658,7 @@ END_LOCAL;
     REPEAT j := 1 TO HIINDEX(gisu_set);
       CASE TRUE OF
         ('AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.CONSTRUCTIVE_GEOMETRY_REPRESENTATION' IN
-         TYPEOF(gisu_set[i]\geometric_item_specific_usage.used_representation)) : BEGIN  
+         TYPEOF(gisu_set[ j(*TY2026/02/27*) ]\geometric_item_specific_usage.used_representation)) : BEGIN
                                                                                          IF (SIZEOF(['AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.LINE',
                                                                                                      'AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.POINT',
                                                                                                      'AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.PLANE',
@@ -54637,7 +54666,7 @@ END_LOCAL;
                                                                                                      'AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.LINE_ON_PLANE_PCURVE',
                                                                                                      'AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.POINT_ON_LINE',
                                                                                                      'AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.POINT_ON_PLANE'] *
-                                                                                                    TYPEOF(gisu_set[i]\geometric_item_specific_usage.identified_item)) =
+                                                                                                    TYPEOF(gisu_set[ j(*TY2026/02/27*) ]\geometric_item_specific_usage.identified_item)) =
                                                                                              1)
                                                                                          THEN
                                                                                            pass := TRUE;
@@ -54647,14 +54676,14 @@ END_LOCAL;
       END_CASE;
       CASE TRUE OF
         ('AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.TESSELLATED_CONSTRUCTIVE_GEOMETRY_REPRESENTATION' IN
-         TYPEOF(gisu_set[i]\geometric_item_specific_usage.used_representation)) : BEGIN  
+         TYPEOF(gisu_set[ j(*TY2026/02/27*) ]\geometric_item_specific_usage.used_representation)) : BEGIN
                                                                                          IF (SIZEOF(['AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.PLACEMENT',
                                                                                                      'AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.TESSELLATED_CURVE_SET',
                                                                                                      'AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.TESSELLATED_EDGE',
                                                                                                      'AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.TESSELLATED_FACE',
                                                                                                      'AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.TESSELLATED_SURFACE_SET',
                                                                                                      'AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.TESSELLATED_VERTEX'] *
-                                                                                                    TYPEOF(gisu_set[i]\geometric_item_specific_usage.identified_item)) =
+                                                                                                    TYPEOF(gisu_set[ j(*TY2026/02/27*) ]\geometric_item_specific_usage.identified_item)) =
                                                                                              1)
                                                                                          THEN
                                                                                            pass := TRUE;

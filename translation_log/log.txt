@@ -1,65 +1,61 @@
-exp2swift(84525,0x202726c40) malloc: enabling scribbling to detect mods to free blocks
-searching: '/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf.exp' ...
-/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf.exp:22871: WARNING PW039: Possibly unnecessary qualifiers on redeclared attr 'definition' in a uniqueness rule of entity 'mating_material'.
-/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf.exp:15982: WARNING PW051: Implicit downcast to binary_assembly_constraint.
-/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf.exp:15982: WARNING PW051: Implicit downcast to binary_assembly_constraint.
-/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf.exp:13586: WARNING PW051: Implicit downcast to mated_part_relationship.
-/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf.exp:18984: WARNING PW039: Possibly unnecessary qualifiers on redeclared attr 'relating_representation_item' in a uniqueness rule of entity 'geometric_model_element_relationship'.
-/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf.exp:18985: WARNING PW039: Possibly unnecessary qualifiers on redeclared attr 'related_representation_item' in a uniqueness rule of entity 'geometric_model_element_relationship'.
-/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf.exp:14184: WARNING PW052: Possibly ambiguous implicit downcast (curve_style_font?).
-/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf.exp:14184: WARNING PW052: Possibly ambiguous implicit downcast (curve_style_font?).
-/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf.exp:14192: WARNING PW052: Possibly ambiguous implicit downcast (curve_style_font?).
-/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf.exp:14192: WARNING PW052: Possibly ambiguous implicit downcast (curve_style_font?).
-/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf.exp:52023: WARNING PW047: Indexing upon a select (item_identified_representation_usage_select), with mixed base types (aggregates and non-aggregates) and/or different aggregation types.
-/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf.exp:52024: WARNING PW047: Indexing upon a select (item_identified_representation_usage_select), with mixed base types (aggregates and non-aggregates) and/or different aggregation types.
-/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf.exp:18756: WARNING PW047: Indexing upon a select (datum_or_common_datum), with mixed base types (aggregates and non-aggregates) and/or different aggregation types.
-/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf.exp:28962: WARNING PW051: Implicit downcast to product_definition.
-/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf.exp:54233: WARNING PW051: Implicit downcast to product_definition.
-/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf.exp:54231: WARNING PW051: Implicit downcast to product_definition.
-/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf.exp:20629: WARNING PW051: Implicit downcast to mated_part_relationship.
-/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf.exp:20630: WARNING PW051: Implicit downcast to shape_aspect.
-/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf.exp:53423: WARNING PW051: Implicit downcast to product_definition.
-/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf.exp:53880: WARNING PW051: Implicit downcast to product_definition.
-/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf.exp:52970: WARNING PW047: Indexing upon a select (compound_item_definition), with mixed base types (aggregates and non-aggregates) and/or different aggregation types.
-/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf.exp:52970: WARNING PW051: Implicit downcast to measure_with_unit.
-/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf.exp:54243: WARNING PW051: Implicit downcast to product_definition.
-/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf.exp:54242: WARNING PW051: Implicit downcast to product_definition.
-/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf.exp:54269: WARNING PW051: Implicit downcast to product_definition.
-/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf.exp:54268: WARNING PW051: Implicit downcast to product_definition.
-/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf.exp:7523: WARNING PW047: Indexing upon a select (compound_item_definition), with mixed base types (aggregates and non-aggregates) and/or different aggregation types.
-/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf.exp:7525: WARNING PW051: Implicit downcast to measure_with_unit.
-/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf.exp:7521: WARNING PW047: Indexing upon a select (compound_item_definition), with mixed base types (aggregates and non-aggregates) and/or different aggregation types.
-/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf.exp:7530: WARNING PW047: Indexing upon a select (compound_item_definition), with mixed base types (aggregates and non-aggregates) and/or different aggregation types.
-/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf.exp:7532: WARNING PW051: Implicit downcast to measure_with_unit.
-/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf.exp:7528: WARNING PW047: Indexing upon a select (compound_item_definition), with mixed base types (aggregates and non-aggregates) and/or different aggregation types.
-/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf.exp:53830: WARNING PW051: Implicit downcast to product_definition.
-/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf.exp:34063: WARNING PW052: Possibly ambiguous implicit downcast (curve_style_font?).
-/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf.exp:34063: WARNING PW052: Possibly ambiguous implicit downcast (curve_style_font?).
-/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf.exp:34071: WARNING PW052: Possibly ambiguous implicit downcast (curve_style_font?).
-/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf.exp:34071: WARNING PW052: Possibly ambiguous implicit downcast (curve_style_font?).
-/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf.exp:34092: WARNING PW052: Possibly ambiguous implicit downcast (curve_style_font?).
-/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf.exp:34092: WARNING PW052: Possibly ambiguous implicit downcast (curve_style_font?).
-/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf.exp:34106: WARNING PW052: Possibly ambiguous implicit downcast (curve_style_font?).
-/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf.exp:34106: WARNING PW052: Possibly ambiguous implicit downcast (curve_style_font?).
-/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf.exp:47143: WARNING PW047: Indexing upon a select (maths_value), with mixed base types (aggregates and non-aggregates) and/or different aggregation types.
-/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf.exp:47163: WARNING PW047: Indexing upon a select (maths_value), with mixed base types (aggregates and non-aggregates) and/or different aggregation types.
-/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf.exp:47184: WARNING PW047: Indexing upon a select (maths_value), with mixed base types (aggregates and non-aggregates) and/or different aggregation types.
-/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf.exp:47192: WARNING PW047: Indexing upon a select (maths_value), with mixed base types (aggregates and non-aggregates) and/or different aggregation types.
-/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf.exp:54259: WARNING PW051: Implicit downcast to product_definition.
-/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf.exp:54258: WARNING PW051: Implicit downcast to product_definition.
-/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf.exp:15214: WARNING PW051: Implicit downcast to vertex_point.
-/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf.exp:32552: WARNING PW052: Possibly ambiguous implicit downcast (fixed_element_geometric_constraint?).
-/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf.exp:32553: WARNING PW052: Possibly ambiguous implicit downcast (explicit_geometric_constraint?).
-/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf.exp:53378: WARNING PW052: Possibly ambiguous implicit downcast (shape_aspect?).
-/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf.exp:53378: WARNING PW052: Possibly ambiguous implicit downcast (shape_aspect?).
-/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf.exp:53375: WARNING PW052: Possibly ambiguous implicit downcast (shape_aspect?).
-/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf.exp:53375: WARNING PW052: Possibly ambiguous implicit downcast (shape_aspect?).
-/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf.exp:49336: WARNING PW070: Unsupported language feature (indexing on a BINARY) at /Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/stepcode/src/express/expr.c:873
-/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf.exp:49379: WARNING PW070: Unsupported language feature (indexing on a BINARY) at /Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/stepcode/src/express/expr.c:873
-/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf.exp:43871: WARNING PW052: Possibly ambiguous implicit downcast (finite_integer_interval?).
-/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf.exp:43872: WARNING PW052: Possibly ambiguous implicit downcast (finite_integer_interval?).
-/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf.exp:54280: WARNING PW051: Implicit downcast to product_definition.
-/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf.exp:54279: WARNING PW051: Implicit downcast to product_definition.
+exp2swift(7842,0x1edeef080) malloc: enabling scribbling to detect mods to free blocks
+searching: '/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp' ...
+/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:22881: WARNING PW039: Possibly unnecessary qualifiers on redeclared attr 'definition' in a uniqueness rule of entity 'mating_material'.
+/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:15992: WARNING PW051: Implicit downcast to binary_assembly_constraint.
+/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:15992: WARNING PW051: Implicit downcast to binary_assembly_constraint.
+/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:13596: WARNING PW051: Implicit downcast to mated_part_relationship.
+/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:18994: WARNING PW039: Possibly unnecessary qualifiers on redeclared attr 'relating_representation_item' in a uniqueness rule of entity 'geometric_model_element_relationship'.
+/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:18995: WARNING PW039: Possibly unnecessary qualifiers on redeclared attr 'related_representation_item' in a uniqueness rule of entity 'geometric_model_element_relationship'.
+/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:14194: WARNING PW052: Possibly ambiguous implicit downcast (curve_style_font?).
+/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:14194: WARNING PW052: Possibly ambiguous implicit downcast (curve_style_font?).
+/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:14202: WARNING PW052: Possibly ambiguous implicit downcast (curve_style_font?).
+/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:14202: WARNING PW052: Possibly ambiguous implicit downcast (curve_style_font?).
+/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:52052: WARNING PW047: Indexing upon a select (item_identified_representation_usage_select), with mixed base types (aggregates and non-aggregates) and/or different aggregation types.
+/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:52053: WARNING PW047: Indexing upon a select (item_identified_representation_usage_select), with mixed base types (aggregates and non-aggregates) and/or different aggregation types.
+/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:18766: WARNING PW047: Indexing upon a select (datum_or_common_datum), with mixed base types (aggregates and non-aggregates) and/or different aggregation types.
+/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:28972: WARNING PW051: Implicit downcast to product_definition.
+/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:54262: WARNING PW051: Implicit downcast to product_definition.
+/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:54260: WARNING PW051: Implicit downcast to product_definition.
+/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:20639: WARNING PW051: Implicit downcast to mated_part_relationship.
+/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:20640: WARNING PW051: Implicit downcast to shape_aspect.
+/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:53452: WARNING PW051: Implicit downcast to product_definition.
+/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:53909: WARNING PW051: Implicit downcast to product_definition.
+/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:52999: WARNING PW047: Indexing upon a select (compound_item_definition), with mixed base types (aggregates and non-aggregates) and/or different aggregation types.
+/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:52999: WARNING PW051: Implicit downcast to measure_with_unit.
+/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:54272: WARNING PW051: Implicit downcast to product_definition.
+/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:54271: WARNING PW051: Implicit downcast to product_definition.
+/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:54298: WARNING PW051: Implicit downcast to product_definition.
+/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:54297: WARNING PW051: Implicit downcast to product_definition.
+/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:7533: WARNING PW047: Indexing upon a select (compound_item_definition), with mixed base types (aggregates and non-aggregates) and/or different aggregation types.
+/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:7535: WARNING PW051: Implicit downcast to measure_with_unit.
+/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:7531: WARNING PW047: Indexing upon a select (compound_item_definition), with mixed base types (aggregates and non-aggregates) and/or different aggregation types.
+/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:7540: WARNING PW047: Indexing upon a select (compound_item_definition), with mixed base types (aggregates and non-aggregates) and/or different aggregation types.
+/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:7542: WARNING PW051: Implicit downcast to measure_with_unit.
+/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:7538: WARNING PW047: Indexing upon a select (compound_item_definition), with mixed base types (aggregates and non-aggregates) and/or different aggregation types.
+/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:53859: WARNING PW051: Implicit downcast to product_definition.
+/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:34073: WARNING PW052: Possibly ambiguous implicit downcast (curve_style_font?).
+/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:34073: WARNING PW052: Possibly ambiguous implicit downcast (curve_style_font?).
+/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:34081: WARNING PW052: Possibly ambiguous implicit downcast (curve_style_font?).
+/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:34081: WARNING PW052: Possibly ambiguous implicit downcast (curve_style_font?).
+/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:34102: WARNING PW052: Possibly ambiguous implicit downcast (curve_style_font?).
+/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:34102: WARNING PW052: Possibly ambiguous implicit downcast (curve_style_font?).
+/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:34116: WARNING PW052: Possibly ambiguous implicit downcast (curve_style_font?).
+/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:34116: WARNING PW052: Possibly ambiguous implicit downcast (curve_style_font?).
+/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:54288: WARNING PW051: Implicit downcast to product_definition.
+/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:54287: WARNING PW051: Implicit downcast to product_definition.
+/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:15224: WARNING PW051: Implicit downcast to vertex_point.
+/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:32562: WARNING PW052: Possibly ambiguous implicit downcast (fixed_element_geometric_constraint?).
+/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:32563: WARNING PW052: Possibly ambiguous implicit downcast (explicit_geometric_constraint?).
+/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:53407: WARNING PW052: Possibly ambiguous implicit downcast (shape_aspect?).
+/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:53407: WARNING PW052: Possibly ambiguous implicit downcast (shape_aspect?).
+/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:53404: WARNING PW052: Possibly ambiguous implicit downcast (shape_aspect?).
+/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:53404: WARNING PW052: Possibly ambiguous implicit downcast (shape_aspect?).
+/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:49353: WARNING PW070: Unsupported language feature (indexing on a BINARY) at /Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/stepcode/src/express/expr.c:873
+/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:49396: WARNING PW070: Unsupported language feature (indexing on a BINARY) at /Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/stepcode/src/express/expr.c:873
+/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:43883: WARNING PW052: Possibly ambiguous implicit downcast (finite_integer_interval?).
+/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:43884: WARNING PW052: Possibly ambiguous implicit downcast (finite_integer_interval?).
+/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:54309: WARNING PW051: Implicit downcast to product_definition.
+/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:54308: WARNING PW051: Implicit downcast to product_definition.
 exp2swift: writing schema file AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.swift
 exp2swift: writing schema translation file type-ap242/B/basis_11_direction_member.swift
 exp2swift: writing schema translation file type-ap242/C/class_usage_effectivity_context_item.swift
