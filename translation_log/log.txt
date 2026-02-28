@@ -1,4 +1,4 @@
-exp2swift(7842,0x1edeef080) malloc: enabling scribbling to detect mods to free blocks
+exp2swift(44528,0x1edeef080) malloc: enabling scribbling to detect mods to free blocks
 searching: '/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp' ...
 /Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:22881: WARNING PW039: Possibly unnecessary qualifiers on redeclared attr 'definition' in a uniqueness rule of entity 'mating_material'.
 /Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:15992: WARNING PW051: Implicit downcast to binary_assembly_constraint.
