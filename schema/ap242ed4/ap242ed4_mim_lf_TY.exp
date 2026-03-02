@@ -51631,7 +51631,45 @@ END_LOCAL;
   RETURN([]);
 END_FUNCTION;
 
+
+--*TY2025/11/25  attempting to reduce the number of recursive using_items() calls by expanding the new_check_items
 FUNCTION using_items(item : founded_item_select;
+                     checked_items : SET OF founded_item_select) : SET OF founded_item_select;
+LOCAL
+  new_check_items : SET OF founded_item_select;
+  result_items    : SET OF founded_item_select;
+  next_items      : SET OF founded_item_select;
+  using_next_items: SET OF founded_item_select; --*TY2025/06/27
+END_LOCAL;
+  result_items := [];
+  new_check_items := checked_items + item;
+  -- Find the set of representation_items or founded_items
+  -- in which item is used directly.
+  next_items := QUERY(z
+                      <* bag_to_set(USEDIN(item, ''))
+                      | ('AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.REPRESENTATION_ITEM' IN TYPEOF(z)) OR
+                        ('AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.FOUNDED_ITEM' IN TYPEOF(z)));
+  -- If the set of next_items is not empty;
+  IF SIZEOF(next_items) > 0
+  THEN
+    REPEAT i := 1 TO HIINDEX(next_items);
+      IF NOT (next_items[i] IN new_check_items)
+      THEN
+--      result_items := result_items + next_items[i] + using_items(next_items[i], new_check_items);
+
+        using_next_items := using_items(next_items[i], new_check_items);
+        new_check_items := new_check_items + using_next_items;
+        result_items := result_items + next_items[i] + using_next_items;
+      END_IF;
+    END_REPEAT;
+  END_IF;
+  -- return the set of representation_items or founded_items
+  -- in which the input item is used directly and indirectly.
+  RETURN(result_items);
+END_FUNCTION;
+
+--*TY2025/11/25 original implementation
+FUNCTION using_items_ORIGINAL(item : founded_item_select;
                      checked_items : SET OF founded_item_select) : SET OF founded_item_select;
 LOCAL
   new_check_items : SET OF founded_item_select;
@@ -51660,6 +51698,8 @@ END_LOCAL;
   -- in which the input item is used directly and indirectly.
   RETURN(result_items);
 END_FUNCTION;
+
+
 
 FUNCTION using_product_definition_of_shape_aspect(item : shape_aspect) : product_definition;
   IF ('AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF.PRODUCT_DEFINITION' IN TYPEOF(item.of_shape.definition))
