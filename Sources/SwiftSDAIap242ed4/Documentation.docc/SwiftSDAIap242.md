@@ -1,4 +1,4 @@
-# ``SwiftSDAIap242``
+# ``SwiftSDAIap242ed4``
 
 A Swift library for parsing, manipulating, and generating STEP AP242 Edition 4 data (ISO 10303-242:2025) in Apple ecosystem applications.
 
@@ -15,9 +15,9 @@ SwiftSDAIap242 provides a robust implementation of the STEP AP242 standard (Edit
 
 ## Getting Started
 
-Add SwiftSDAIap242 to your project via Swift Package Manager. Then import the module:
+Add SwiftSDAIap242ed4 to your project via Swift Package Manager. Then import the module:
 ```swift
-import SwiftSDAIap242
+import SwiftSDAIap242ed4
 ```
 
 ## Topics
