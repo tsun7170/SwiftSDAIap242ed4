@@ -32,5 +32,5 @@ AP242 translation is performed using the updated EXPRESS AP242 schema definition
 
 
 ## Development environment
-* Xcode version 26.3
-* macOS Tahoe 26.3
+* Xcode version 26.4
+* macOS Tahoe 26.3.1(a)

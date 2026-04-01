@@ -1,4 +1,4 @@
-exp2swift(90576,0x1edeef080) malloc: enabling scribbling to detect mods to free blocks
+exp2swift(94126,0x1ee2eb100) malloc: enabling scribbling to detect mods to free blocks
 searching: '/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp' ...
 /Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:22881: WARNING PW039: Possibly unnecessary qualifiers on redeclared attr 'definition' in a uniqueness rule of entity 'mating_material'.
 /Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:15992: WARNING PW051: Implicit downcast to binary_assembly_constraint.
@@ -3376,4 +3376,14 @@ exp2swift: writing schema translation file func-ap242/U/using_items.swift
 exp2swift: writing schema translation file func-ap242/C/check_sparse_loc_range.swift
 exp2swift: writing schema translation file func-ap242/E/equal_cregion_pregion.swift
 exp2swift: writing schema translation file func-ap242/D/derive_finite_function_domain.swift
+exp2swift: writing schema translation file func-ap242/A/a3ms_get_element_type.swift
+exp2swift: writing schema translation file func-ap242/M/make_real_interval_to_max.swift
+exp2swift: writing schema translation file func-ap242/W/weights_positive.swift
+exp2swift: writing schema translation file func-ap242/G/gbsf_check_point.swift
+exp2swift: writing schema translation file func-ap242/V/validate_inspected_elements_type.swift
+exp2swift: writing schema translation file func-ap242/T/topology_reversed.swift
+exp2swift: writing schema translation file func-ap242/I/inspected_product_definition.swift
+exp2swift: writing schema translation file func-ap242/P/pmidq_get_value_limit_type.swift
+exp2swift: writing schema translation file func-ap242/V/valid_time.swift
+No errors in input
 Program ended with exit code: 0
