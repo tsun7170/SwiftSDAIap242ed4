@@ -1,4 +1,4 @@
-exp2swift(94126,0x1ee2eb100) malloc: enabling scribbling to detect mods to free blocks
+exp2swift(31387,0x20070f100) malloc: enabling scribbling to detect mods to free blocks
 searching: '/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp' ...
 /Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:22881: WARNING PW039: Possibly unnecessary qualifiers on redeclared attr 'definition' in a uniqueness rule of entity 'mating_material'.
 /Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:15992: WARNING PW051: Implicit downcast to binary_assembly_constraint.
@@ -24,6 +24,11 @@ searching: '/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4
 /Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:53039: WARNING PW051: Implicit downcast to measure_with_unit.
 /Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:54312: WARNING PW051: Implicit downcast to product_definition.
 /Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:54311: WARNING PW051: Implicit downcast to product_definition.
+/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:56313: WARNING PW051: Implicit downcast to vertex_shell.
+/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:56317: WARNING PW051: Implicit downcast to wire_shell.
+/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:56318: WARNING PW051: Implicit downcast to wire_shell.
+/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:56324: WARNING PW052: Possibly ambiguous implicit downcast (oriented_open_shell?).
+/Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:56325: WARNING PW052: Possibly ambiguous implicit downcast (oriented_open_shell?).
 /Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:54338: WARNING PW051: Implicit downcast to product_definition.
 /Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:54337: WARNING PW051: Implicit downcast to product_definition.
 /Users/home/Dropbox/STEP/STEPcode/STEPswiftcode/../SwiftSDAIap242ed4/schema/ap242ed4/ap242ed4_mim_lf_TY.exp:7533: WARNING PW047: Indexing upon a select (compound_item_definition), with mixed base types (aggregates and non-aggregates) and/or different aggregation types.
@@ -3052,7 +3057,11 @@ exp2swift: writing schema translation file rule-ap242/R/restrict_product_definit
 exp2swift: writing schema translation file rule-ap242/R/restrict_group_relationship_for_classification_hierarchy.swift
 exp2swift: writing schema translation file func-ap242/M/make_cartesian_complex_number_region.swift
 exp2swift: writing schema translation file func-ap242/M/md_valid_content_in_geometric_set_for_placeholder.swift
+exp2swift: writing schema translation file func-ap242/A/acyclic_identification_assignment_relationship.swift
+exp2swift: writing schema translation file func-ap242/A/acyclic_time_interval_relationship.swift
 exp2swift: writing schema translation file func-ap242/A/acyclic_description_text_assignment_relationship.swift
+exp2swift: writing schema translation file func-ap242/A/acyclic_action_resource_relationship.swift
+exp2swift: writing schema translation file func-ap242/M/make_mult_expression.swift
 exp2swift: writing schema translation file func-ap242/C/compare_basis_and_coef.swift
 exp2swift: writing schema translation file func-ap242/C/closed_shell_reversed.swift
 exp2swift: writing schema translation file func-ap242/T/tsdq_validate_element_types.swift
@@ -3064,6 +3073,7 @@ exp2swift: writing schema translation file func-ap242/R/regular_indexing.swift
 exp2swift: writing schema translation file func-ap242/G/get_name_value.swift
 exp2swift: writing schema translation file func-ap242/I/is_acyclic.swift
 exp2swift: writing schema translation file func-ap242/P/pmidq_validate_element_types.swift
+exp2swift: writing schema translation file func-ap242/M/make_series_composed_function.swift
 exp2swift: writing schema translation file func-ap242/G/get_kinematic_joints_from_kinematic_loops.swift
 exp2swift: writing schema translation file func-ap242/M/make_function_application.swift
 exp2swift: writing schema translation file func-ap242/D/definite_integral_check.swift
@@ -3073,6 +3083,7 @@ exp2swift: writing schema translation file func-ap242/M/msb_shells.swift
 exp2swift: writing schema translation file func-ap242/V/valid_identified_item_in_representation.swift
 exp2swift: writing schema translation file func-ap242/U/using_representations.swift
 exp2swift: writing schema translation file func-ap242/E/es_subspace_of_es.swift
+exp2swift: writing schema translation file func-ap242/M/make_rationalize_function.swift
 exp2swift: writing schema translation file func-ap242/C/check_continuous_edges.swift
 exp2swift: writing schema translation file func-ap242/C/check_geometric_dimension.swift
 exp2swift: writing schema translation file func-ap242/B/bag_to_set.swift
@@ -3080,6 +3091,7 @@ exp2swift: writing schema translation file func-ap242/B/build_axes.swift
 exp2swift: writing schema translation file func-ap242/C/constraints_geometry_shell_based_wireframe_model.swift
 exp2swift: writing schema translation file func-ap242/S/scalar_times_vector.swift
 exp2swift: writing schema translation file func-ap242/V/validate_locations_of_extreme_value_type.swift
+exp2swift: writing schema translation file func-ap242/L/list_shell_edges.swift
 exp2swift: writing schema translation file func-ap242/M/min_exists.swift
 exp2swift: writing schema translation file func-ap242/R/real_min.swift
 exp2swift: writing schema translation file func-ap242/A/acyclic_solid_replica.swift
@@ -3088,24 +3100,33 @@ exp2swift: writing schema translation file func-ap242/V/valid_geometrically_boun
 exp2swift: writing schema translation file func-ap242/V/valid_wireframe_edge_curve.swift
 exp2swift: writing schema translation file func-ap242/C/convert_spatial_to_ypr_rotation.swift
 exp2swift: writing schema translation file func-ap242/L/leap_year.swift
+exp2swift: writing schema translation file func-ap242/L/list_shell_faces.swift
 exp2swift: writing schema translation file func-ap242/C/compute_total_depth.swift
 exp2swift: writing schema translation file func-ap242/G/geometric_dimensionalities_in_contexts.swift
 exp2swift: writing schema translation file func-ap242/M/make_uniform_product_space.swift
 exp2swift: writing schema translation file func-ap242/M/md_valid_content_in_geometric_set_for_external_image.swift
+exp2swift: writing schema translation file func-ap242/A/acyclic_action_method_relationship.swift
 exp2swift: writing schema translation file func-ap242/C/convert_to_operands.swift
 exp2swift: writing schema translation file func-ap242/M/make_string_literal.swift
+exp2swift: writing schema translation file func-ap242/A/acyclic_organization_relationship.swift
 exp2swift: writing schema translation file func-ap242/G/get_associated_mandatory_document_ids.swift
 exp2swift: writing schema translation file func-ap242/E/extract_factors.swift
+exp2swift: writing schema translation file func-ap242/M/make_listed_real_data.swift
 exp2swift: writing schema translation file func-ap242/A/a3ms_get_measured_type.swift
 exp2swift: writing schema translation file func-ap242/C/collect_joints.swift
 exp2swift: writing schema translation file func-ap242/G/get_role.swift
 exp2swift: writing schema translation file func-ap242/O/orthogonal_complement.swift
+exp2swift: writing schema translation file func-ap242/B/build_transformed_set.swift
 exp2swift: writing schema translation file func-ap242/G/gbsf_check_curve.swift
+exp2swift: writing schema translation file func-ap242/M/make_partial_derivative_expression.swift
 exp2swift: writing schema translation file func-ap242/A/atan2.swift
 exp2swift: writing schema translation file func-ap242/E/equal_maths_spaces.swift
 exp2swift: writing schema translation file func-ap242/A/a3ma_get_detected_difference_type.swift
 exp2swift: writing schema translation file func-ap242/D/drop_numeric_constraints.swift
 exp2swift: writing schema translation file func-ap242/M/make_array_of_array_of_array.swift
+exp2swift: writing schema translation file func-ap242/A/acyclic_property_definition_relationship.swift
+exp2swift: writing schema translation file func-ap242/M/make_environment.swift
+exp2swift: writing schema translation file func-ap242/V/vertex_point_pcurves.swift
 exp2swift: writing schema translation file func-ap242/G/get_tri_in_representations.swift
 exp2swift: writing schema translation file func-ap242/N/nmsf_curve_check.swift
 exp2swift: writing schema translation file func-ap242/I/is_sql_mappable.swift
@@ -3121,6 +3142,8 @@ exp2swift: writing schema translation file func-ap242/A/a3ma_validate_element_ty
 exp2swift: writing schema translation file func-ap242/M/make_maths_enum_literal.swift
 exp2swift: writing schema translation file func-ap242/M/make_polar_complex_number_region.swift
 exp2swift: writing schema translation file func-ap242/S/sts_get_general_datum_reference.swift
+exp2swift: writing schema translation file func-ap242/M/make_partial_derivative_function.swift
+exp2swift: writing schema translation file func-ap242/G/get_product_definitions.swift
 exp2swift: writing schema translation file func-ap242/C/compatible_spaces.swift
 exp2swift: writing schema translation file func-ap242/E/enclose_pregion_in_pregion.swift
 exp2swift: writing schema translation file func-ap242/M/make_elementary_function.swift
@@ -3138,17 +3161,26 @@ exp2swift: writing schema translation file func-ap242/A/a3ma_validate_measured_t
 exp2swift: writing schema translation file func-ap242/N/nondecreasing.swift
 exp2swift: writing schema translation file func-ap242/E/equal_maths_values.swift
 exp2swift: writing schema translation file func-ap242/P/pmidq_get_inspected_element_type_name.swift
+exp2swift: writing schema translation file func-ap242/A/acyclic_versioned_action_request_relationship.swift
 exp2swift: writing schema translation file func-ap242/P/parse_express_identifier.swift
+exp2swift: writing schema translation file func-ap242/A/acyclic_approval_relationship.swift
+exp2swift: writing schema translation file func-ap242/M/make_standard_table_function.swift
 exp2swift: writing schema translation file func-ap242/M/make_array_of_array.swift
+exp2swift: writing schema translation file func-ap242/A/acyclic_effectivity_relationship.swift
+exp2swift: writing schema translation file func-ap242/R/relatives_of_product_definitions.swift
+exp2swift: writing schema translation file func-ap242/M/make_b_spline_basis.swift
 exp2swift: writing schema translation file func-ap242/B/build_2axes.swift
 exp2swift: writing schema translation file func-ap242/C/convert_to_maths_value.swift
 exp2swift: writing schema translation file func-ap242/P/parallel_composed_function_composability_check.swift
+exp2swift: writing schema translation file func-ap242/A/acyclic_event_occurrence_relationship.swift
+exp2swift: writing schema translation file func-ap242/L/list_loop_edges.swift
 exp2swift: writing schema translation file func-ap242/A/a3ms_get_detected_difference_type.swift
 exp2swift: writing schema translation file func-ap242/S/same_side.swift
 exp2swift: writing schema translation file func-ap242/S/sort_link_associations.swift
 exp2swift: writing schema translation file func-ap242/F/factor_space.swift
 exp2swift: writing schema translation file func-ap242/R/relating_shape_representations_of_extreme_values.swift
 exp2swift: writing schema translation file func-ap242/U/using_product_definition_of_shape_representation.swift
+exp2swift: writing schema translation file func-ap242/A/acyclic_general_property_relationship.swift
 exp2swift: writing schema translation file func-ap242/A/acyclic_composite_text.swift
 exp2swift: writing schema translation file func-ap242/A/acyclic_state_definition_to_state_assignment_relationship.swift
 exp2swift: writing schema translation file func-ap242/M/mixed_loop_type_set.swift
@@ -3168,8 +3200,11 @@ exp2swift: writing schema translation file func-ap242/V/valid_csg_2d_primitives.
 exp2swift: writing schema translation file func-ap242/M/max_exists.swift
 exp2swift: writing schema translation file func-ap242/N/number_superspace_of.swift
 exp2swift: writing schema translation file func-ap242/V/valid_calendar_date.swift
+exp2swift: writing schema translation file func-ap242/A/acyclic_organizational_project_relationship.swift
+exp2swift: writing schema translation file func-ap242/V/vector_sum.swift
 exp2swift: writing schema translation file func-ap242/C/curve_weights_positive.swift
 exp2swift: writing schema translation file func-ap242/N/number_tuple_subspace_check.swift
+exp2swift: writing schema translation file func-ap242/M/make_finite_function.swift
 exp2swift: writing schema translation file func-ap242/A/acyclic_action_directive_relationship.swift
 exp2swift: writing schema translation file func-ap242/C/check_text_alignment.swift
 exp2swift: writing schema translation file func-ap242/V/value_limit_type.swift
@@ -3177,15 +3212,19 @@ exp2swift: writing schema translation file func-ap242/C/categories_of_product.sw
 exp2swift: writing schema translation file func-ap242/G/get_shape_aspect_property_definition_representations.swift
 exp2swift: writing schema translation file func-ap242/F/function_is_1d_table.swift
 exp2swift: writing schema translation file func-ap242/P/parallel_composed_function_domain_check.swift
+exp2swift: writing schema translation file func-ap242/L/list_shell_loops.swift
 exp2swift: writing schema translation file func-ap242/F/find_representative_shape_representation_of_product_definition.swift
 exp2swift: writing schema translation file func-ap242/V/validate_ecdq_inspected_elements_type.swift
 exp2swift: writing schema translation file func-ap242/V/validate_countersink_radii.swift
+exp2swift: writing schema translation file func-ap242/S/shorten_array.swift
 exp2swift: writing schema translation file func-ap242/A/acyclic_shape_aspect_occurrence.swift
 exp2swift: writing schema translation file func-ap242/V/validate_measured_data_type.swift
+exp2swift: writing schema translation file func-ap242/M/make_regular_table_function.swift
 exp2swift: writing schema translation file func-ap242/L/list_face_loops.swift
 exp2swift: writing schema translation file func-ap242/C/composable_sequence.swift
 exp2swift: writing schema translation file func-ap242/G/gbsf_check_surface.swift
 exp2swift: writing schema translation file func-ap242/G/get_item_defined_transformations.swift
+exp2swift: writing schema translation file func-ap242/M/make_listed_integer_data.swift
 exp2swift: writing schema translation file func-ap242/B/boolean_choose.swift
 exp2swift: writing schema translation file func-ap242/C/check_sparse_index_domain.swift
 exp2swift: writing schema translation file func-ap242/M/msf_surface_check.swift
@@ -3196,6 +3235,7 @@ exp2swift: writing schema translation file func-ap242/M/make_parallel_composed_f
 exp2swift: writing schema translation file func-ap242/P/path_reversed.swift
 exp2swift: writing schema translation file func-ap242/M/make_int_literal.swift
 exp2swift: writing schema translation file func-ap242/V/valid_measure_value.swift
+exp2swift: writing schema translation file func-ap242/M/make_general_linear_function.swift
 exp2swift: writing schema translation file func-ap242/D/derive_elementary_function_range.swift
 exp2swift: writing schema translation file func-ap242/C/constraints_composite_curve_on_surface.swift
 exp2swift: writing schema translation file func-ap242/D/dimension_of.swift
@@ -3204,6 +3244,7 @@ exp2swift: writing schema translation file func-ap242/U/using_items_original.swi
 exp2swift: writing schema translation file func-ap242/E/enclose_cregion_in_pregion.swift
 exp2swift: writing schema translation file func-ap242/R/repackage.swift
 exp2swift: writing schema translation file func-ap242/C/convert_to_literal.swift
+exp2swift: writing schema translation file func-ap242/D/default_b_spline_curve_weights.swift
 exp2swift: writing schema translation file func-ap242/B/bool.swift
 exp2swift: writing schema translation file func-ap242/U/unique_in_product_definition.swift
 exp2swift: writing schema translation file func-ap242/M/make_boolean_literal.swift
@@ -3213,6 +3254,7 @@ exp2swift: writing schema translation file func-ap242/G/get_description_value.sw
 exp2swift: writing schema translation file func-ap242/G/get_product_definition_shape.swift
 exp2swift: writing schema translation file func-ap242/F/function_is_array.swift
 exp2swift: writing schema translation file func-ap242/T/tsdq_get_value_limit_type_name.swift
+exp2swift: writing schema translation file func-ap242/R/relatives_of_shape_representations.swift
 exp2swift: writing schema translation file func-ap242/C/constraints_scaling.swift
 exp2swift: writing schema translation file func-ap242/D/default_tolerance_table_cell_wr3.swift
 exp2swift: writing schema translation file func-ap242/M/make_listed_product_space.swift
@@ -3225,6 +3267,7 @@ exp2swift: writing schema translation file func-ap242/V/value_range_aggregate_re
 exp2swift: writing schema translation file func-ap242/V/valid_tri_ids.swift
 exp2swift: writing schema translation file func-ap242/C/cross_product.swift
 exp2swift: writing schema translation file func-ap242/V/value_range_wr1.swift
+exp2swift: writing schema translation file func-ap242/A/acyclic_qualification_type_relationship.swift
 exp2swift: writing schema translation file func-ap242/D/default_tolerance_table_cell_wr5.swift
 exp2swift: writing schema translation file func-ap242/E/enclose_pregion_in_cregion.swift
 exp2swift: writing schema translation file func-ap242/M/make_maths_tuple_literal.swift
@@ -3243,18 +3286,27 @@ exp2swift: writing schema translation file func-ap242/S/shell_reversed.swift
 exp2swift: writing schema translation file func-ap242/A/acyclic_uuid_relationship.swift
 exp2swift: writing schema translation file func-ap242/P/partial_derivative_check.swift
 exp2swift: writing schema translation file func-ap242/V/values_space_of.swift
+exp2swift: writing schema translation file func-ap242/A/acyclic_action_relationship.swift
 exp2swift: writing schema translation file func-ap242/A/acyclic.swift
 exp2swift: writing schema translation file func-ap242/C/cc_design_person_and_organization_correlation.swift
 exp2swift: writing schema translation file func-ap242/G/get_tri_for_pd.swift
+exp2swift: writing schema translation file func-ap242/D/default_b_spline_knots.swift
+exp2swift: writing schema translation file func-ap242/M/make_definite_integral_function.swift
 exp2swift: writing schema translation file func-ap242/C/check_curve_planarity.swift
 exp2swift: writing schema translation file func-ap242/A/a3ma_get_value_limit_type.swift
 exp2swift: writing schema translation file func-ap242/P/pmidq_get_measured_type_name.swift
 exp2swift: writing schema translation file func-ap242/S/simplify_generic_expression.swift
 exp2swift: writing schema translation file func-ap242/T/tsdq_get_measured_type_name.swift
+exp2swift: writing schema translation file func-ap242/M/make_strict_triangular_matrix.swift
 exp2swift: writing schema translation file func-ap242/S/shape_of_array.swift
 exp2swift: writing schema translation file func-ap242/G/get_basis_surface.swift
+exp2swift: writing schema translation file func-ap242/A/acyclic_document_relationship.swift
+exp2swift: writing schema translation file func-ap242/M/make_integer_interval_from_min.swift
 exp2swift: writing schema translation file func-ap242/D/derive_function_domain.swift
+exp2swift: writing schema translation file func-ap242/M/make_reindexed_array_function.swift
+exp2swift: writing schema translation file func-ap242/A/acyclic_experience_type_relationship.swift
 exp2swift: writing schema translation file func-ap242/D/dot_product.swift
+exp2swift: writing schema translation file func-ap242/C/compare_list_and_value.swift
 exp2swift: writing schema translation file func-ap242/L/list_of_topology_reversed.swift
 exp2swift: writing schema translation file func-ap242/T/type_check_function.swift
 exp2swift: writing schema translation file func-ap242/A/a3ma_get_element_type.swift
@@ -3262,13 +3314,18 @@ exp2swift: writing schema translation file func-ap242/G/get_coordinate_values.sw
 exp2swift: writing schema translation file func-ap242/F/function_is_table.swift
 exp2swift: writing schema translation file func-ap242/S/sts_get_product_definition_shape.swift
 exp2swift: writing schema translation file func-ap242/A/acyclic_mapped_representation.swift
+exp2swift: writing schema translation file func-ap242/M/make_abstracted_expression_function.swift
+exp2swift: writing schema translation file func-ap242/M/make_banded_matrix.swift
 exp2swift: writing schema translation file func-ap242/A/a3ma_validate_detected_difference_types.swift
+exp2swift: writing schema translation file func-ap242/A/acyclic_location_relationship.swift
+exp2swift: writing schema translation file func-ap242/M/make_selector_function.swift
 exp2swift: writing schema translation file func-ap242/A/all_members_of_es.swift
 exp2swift: writing schema translation file func-ap242/B/base_axis.swift
 exp2swift: writing schema translation file func-ap242/N/no_cyclic_space_reference.swift
 exp2swift: writing schema translation file func-ap242/A/acyclic_curve_replica.swift
 exp2swift: writing schema translation file func-ap242/C/consistent_sizes.swift
 exp2swift: writing schema translation file func-ap242/F/face_reversed.swift
+exp2swift: writing schema translation file func-ap242/M/make_listed_data.swift
 exp2swift: writing schema translation file func-ap242/G/get_descendant_occurrences.swift
 exp2swift: writing schema translation file func-ap242/A/acyclic_geometric_tolerance_relationship.swift
 exp2swift: writing schema translation file func-ap242/S/stripped_typeof.swift
@@ -3277,6 +3334,7 @@ exp2swift: writing schema translation file func-ap242/E/edge_reversed.swift
 exp2swift: writing schema translation file func-ap242/O/one_tuples_of.swift
 exp2swift: writing schema translation file func-ap242/V/volume_weights_positive.swift
 exp2swift: writing schema translation file func-ap242/A/acyclic_external_identification_assignment_relationship.swift
+exp2swift: writing schema translation file func-ap242/A/acyclic_contract_relationship.swift
 exp2swift: writing schema translation file func-ap242/D/derive_elementary_function_domain.swift
 exp2swift: writing schema translation file func-ap242/M/make_atom_based_literal.swift
 exp2swift: writing schema translation file func-ap242/U/using_representation_with_mapping.swift
@@ -3296,6 +3354,7 @@ exp2swift: writing schema translation file func-ap242/I/item_in_context.swift
 exp2swift: writing schema translation file func-ap242/M/member_of.swift
 exp2swift: writing schema translation file func-ap242/V/valid_units.swift
 exp2swift: writing schema translation file func-ap242/C/compatible_complex_number_regions.swift
+exp2swift: writing schema translation file func-ap242/M/make_constant_function.swift
 exp2swift: writing schema translation file func-ap242/E/equal_maths_functions.swift
 exp2swift: writing schema translation file func-ap242/E/expression_is_constant.swift
 exp2swift: writing schema translation file func-ap242/A/assoc_product_space.swift
@@ -3307,18 +3366,23 @@ exp2swift: writing schema translation file func-ap242/A/acyclic_product_category
 exp2swift: writing schema translation file func-ap242/D/domain_from.swift
 exp2swift: writing schema translation file func-ap242/R/remove_first.swift
 exp2swift: writing schema translation file func-ap242/N/nmsf_surface_check.swift
+exp2swift: writing schema translation file func-ap242/D/default_b_spline_knot_mult.swift
 exp2swift: writing schema translation file func-ap242/A/above_plane.swift
+exp2swift: writing schema translation file func-ap242/M/make_expression_denoted_function.swift
 exp2swift: writing schema translation file func-ap242/C/convert_to_maths_function.swift
 exp2swift: writing schema translation file func-ap242/M/make_finite_real_interval.swift
 exp2swift: writing schema translation file func-ap242/D/duration_is_negative.swift
 exp2swift: writing schema translation file func-ap242/F/first_proj_axis.swift
+exp2swift: writing schema translation file func-ap242/A/acyclic_externally_defined_item_relationship.swift
 exp2swift: writing schema translation file func-ap242/S/surface_weights_positive.swift
 exp2swift: writing schema translation file func-ap242/A/a3ms_validate_element_types.swift
 exp2swift: writing schema translation file func-ap242/M/make_finite_integer_interval.swift
 exp2swift: writing schema translation file func-ap242/T/tsdq_validate_measured_type.swift
+exp2swift: writing schema translation file func-ap242/C/compare_values.swift
 exp2swift: writing schema translation file func-ap242/C/conditional_reverse.swift
 exp2swift: writing schema translation file func-ap242/D/dimensions_for_si_unit.swift
 exp2swift: writing schema translation file func-ap242/S/simplify_maths_value.swift
+exp2swift: writing schema translation file func-ap242/M/make_definite_integral_expression.swift
 exp2swift: writing schema translation file func-ap242/S/space_is_singleton.swift
 exp2swift: writing schema translation file func-ap242/A/a3ma_get_measured_type.swift
 exp2swift: writing schema translation file func-ap242/O/open_shell_reversed.swift
@@ -3327,11 +3391,14 @@ exp2swift: writing schema translation file func-ap242/F/find_shape_representatio
 exp2swift: writing schema translation file func-ap242/M/make_real_literal.swift
 exp2swift: writing schema translation file func-ap242/U/unique_in_shape_aspect.swift
 exp2swift: writing schema translation file func-ap242/F/function_is_2d_table.swift
+exp2swift: writing schema translation file func-ap242/E/edge_curve_pcurves.swift
 exp2swift: writing schema translation file func-ap242/F/free_variables_of.swift
 exp2swift: writing schema translation file func-ap242/S/surface_condition_correlation.swift
 exp2swift: writing schema translation file func-ap242/M/make_complex_number_literal.swift
 exp2swift: writing schema translation file func-ap242/V/valid_geometrically_bounded_wf_point.swift
+exp2swift: writing schema translation file func-ap242/M/make_listed_complex_number_data.swift
 exp2swift: writing schema translation file func-ap242/M/make_logical_literal.swift
+exp2swift: writing schema translation file func-ap242/A/acyclic_characterized_object_relationship.swift
 exp2swift: writing schema translation file func-ap242/D/dotted_identifiers_syntax.swift
 exp2swift: writing schema translation file func-ap242/G/get_kinematic_joints_from_oriented_joints.swift
 exp2swift: writing schema translation file func-ap242/I/is_int_expr.swift
@@ -3341,14 +3408,18 @@ exp2swift: writing schema translation file func-ap242/V/valid_datum_target_param
 exp2swift: writing schema translation file func-ap242/A/associated_surface.swift
 exp2swift: writing schema translation file func-ap242/E/extremal_position_check.swift
 exp2swift: writing schema translation file func-ap242/Y/ypr_index.swift
+exp2swift: writing schema translation file func-ap242/M/make_b_spline_function.swift
 exp2swift: writing schema translation file func-ap242/C/constraints_rectangular_composite_surface.swift
 exp2swift: writing schema translation file func-ap242/V/valid_selected_instance_representation.swift
 exp2swift: writing schema translation file func-ap242/C/check_sparse_index_to_loc.swift
+exp2swift: writing schema translation file func-ap242/A/acyclic_person_type_definition_relationship.swift
 exp2swift: writing schema translation file func-ap242/F/factor1.swift
 exp2swift: writing schema translation file func-ap242/M/make_real_interval_from_min.swift
 exp2swift: writing schema translation file func-ap242/F/find_shape_representation_of_shape_aspect.swift
 exp2swift: writing schema translation file func-ap242/V/vector_difference.swift
+exp2swift: writing schema translation file func-ap242/A/acyclic_product_relationship.swift
 exp2swift: writing schema translation file func-ap242/F/function_applicability.swift
+exp2swift: writing schema translation file func-ap242/M/make_basic_sparse_matrix.swift
 exp2swift: writing schema translation file func-ap242/S/singleton_member_of.swift
 exp2swift: writing schema translation file func-ap242/C/convert_to_operand.swift
 exp2swift: writing schema translation file func-ap242/M/make_finite_space.swift
@@ -3357,7 +3428,9 @@ exp2swift: writing schema translation file func-ap242/L/list_selected_components
 exp2swift: writing schema translation file func-ap242/S/simplify_function_application.swift
 exp2swift: writing schema translation file func-ap242/F/function_is_1d_array.swift
 exp2swift: writing schema translation file func-ap242/S/space_dimension.swift
+exp2swift: writing schema translation file func-ap242/A/acyclic_group_relationship.swift
 exp2swift: writing schema translation file func-ap242/N/no_cyclic_domain_reference.swift
+exp2swift: writing schema translation file func-ap242/A/acyclic_external_source_relationship.swift
 exp2swift: writing schema translation file func-ap242/A/a3ms_get_value_limit_type.swift
 exp2swift: writing schema translation file func-ap242/A/acyclic_surface_replica.swift
 exp2swift: writing schema translation file func-ap242/G/get_representations_for_items.swift
@@ -3373,15 +3446,20 @@ exp2swift: writing schema translation file func-ap242/S/subspace_of.swift
 exp2swift: writing schema translation file func-ap242/A/acyclic_alternative_solution_relationship.swift
 exp2swift: writing schema translation file func-ap242/M/make_function_space.swift
 exp2swift: writing schema translation file func-ap242/U/using_items.swift
+exp2swift: writing schema translation file func-ap242/A/acyclic_product_definition_formation_relationship.swift
+exp2swift: writing schema translation file func-ap242/D/default_b_spline_surface_weights.swift
 exp2swift: writing schema translation file func-ap242/C/check_sparse_loc_range.swift
 exp2swift: writing schema translation file func-ap242/E/equal_cregion_pregion.swift
 exp2swift: writing schema translation file func-ap242/D/derive_finite_function_domain.swift
 exp2swift: writing schema translation file func-ap242/A/a3ms_get_element_type.swift
+exp2swift: writing schema translation file func-ap242/M/make_maths_real_variable.swift
 exp2swift: writing schema translation file func-ap242/M/make_real_interval_to_max.swift
+exp2swift: writing schema translation file func-ap242/M/make_repackaging_function.swift
 exp2swift: writing schema translation file func-ap242/W/weights_positive.swift
 exp2swift: writing schema translation file func-ap242/G/gbsf_check_point.swift
 exp2swift: writing schema translation file func-ap242/V/validate_inspected_elements_type.swift
 exp2swift: writing schema translation file func-ap242/T/topology_reversed.swift
+exp2swift: writing schema translation file func-ap242/A/acyclic_position_in_organization_relationship.swift
 exp2swift: writing schema translation file func-ap242/I/inspected_product_definition.swift
 exp2swift: writing schema translation file func-ap242/P/pmidq_get_value_limit_type.swift
 exp2swift: writing schema translation file func-ap242/V/valid_time.swift

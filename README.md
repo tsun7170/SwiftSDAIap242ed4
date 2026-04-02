@@ -11,6 +11,13 @@ Some sample programs are provided in separate repositories (see below).
 
 AP242 translation is performed using the updated EXPRESS AP242 schema definition provided in this package (ap242ed4_mim_lf_TY.exp) which is a modified schema from the official schema definition. The modification includes various apparent EXPRESS error corrections and a performance improvement proposal (using_items).
 
+The modification also includes added missing function definitions from:
+* ISO 10303-41
+* ISO 10303-42
+* ISO 10303-45
+* ISO 10303-50
+
+
 **Reference**  
 - [original schema definition file](https://www.mbx-if.org/home/mbx/resources/express-schemas/ "MBx Interoperability Forum")
 - [ISO 10303-242:2025](https://www.iso.org/standard/84300.html)
