@@ -22,6 +22,9 @@ let package = Package(
         .target(
             name: "SwiftSDAIap242ed4",
             dependencies: ["SwiftSDAIcore"],
+            swiftSettings: [
+              .swiftLanguageMode(.v6)
+            ]
         ),
         .testTarget(
             name: "SwiftSDAIap242ed4Tests",
